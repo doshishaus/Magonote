@@ -1,0 +1,90 @@
+/* 大元の設定 */
+body{
+    position: relative;
+}
+
+/* 大元の設定終了 */
+
+
+/* ヘッダー開始 */
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.icon{
+    height: 100%;
+}
+.icon-img{
+    height: 90%;
+    width: 90%;
+
+}
+/* ヘッダー終了 */
+/* メイン開始 */
+.base,.active{
+    display: flex;
+
+    margin:0;
+}
+.magorun{
+    height: 10vh;
+    width: auto;
+
+    position: absolute;
+}
+.room{
+    height: 70vh;
+    width: auto;
+
+    position: relative;
+    top: 10vh;
+
+    background-size:auto 70vh;
+    background-image: url("../img/childroom.jpg");
+    background-repeat: no-repeat;
+}
+.corasho{
+    position: relative;
+    top: 30vh;
+    left: 50vw;
+
+    height: auto;
+    width: 30%;
+
+}
+/* メイン開終了 */
+
+/* フッター開始 */
+footer{
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 10px;
+    height: 10vh;
+    width: auto;
+    background-color: gray;
+
+}
+.icon-row{
+    display: flex;
+}
+footer .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: skyblue;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+/* フッター終了 */
