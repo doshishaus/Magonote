@@ -47,10 +47,10 @@ header{
     align-items: center;
     justify-content: center;
 }
-.base,.base .Accordionlist{
+.base,.base .Accordionlist,.active .Accordionlist .checkbox{
     background-color: plum;
 }
-.active, .active .Accordionlist{
+.active, .active .Accordionlist,.base .Accordionlist .checkbox{
     background-color: skyblue;
 }
 .point{

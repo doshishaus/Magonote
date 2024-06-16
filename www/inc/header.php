@@ -46,24 +46,24 @@
         </summary>
         <div class="Accordionlist" id="active">
             <div class="checkbox">
-                <input type="checkbox" id="meal">
-                <label for="meal">ごはんをたべた</label>
+                <input type="checkbox" id="photo">
+                <label for="photo">わらったしゃしんをとる</label>
             </div>
             <div class="checkbox">
                 <input type="checkbox" id="workout">
-                <label for="workout">10ふんうんどうした</label>
+                <label for="workout">かいだんをのぼった</label>
             </div>
             <div class="checkbox">
                 <input type="checkbox" id="communication">
-                <label for="communication">ともだちとはなした</label>
+                <label for="communication">えんぴつのしゃしんをとる</label>
             </div>
             <div class="checkbox">
                 <input type="checkbox" id="tooth">
-                <label for="tooth">はみがきをした</label>
+                <label for="tooth">かたずけをした</label>
             </div>
             <div class="checkbox">
                 <input type="checkbox" id="sleep">
-                <label for="sleep">よふかしをしなかった</label>
+                <label for="sleep">ほうれんそうをたべた</label>
             </div>
             <button onclick="ActiveMagorunAdd()">きょうはここまで！</button>
             <div class="sum">
