@@ -1,6 +1,19 @@
 /* 大元の設定 */
+:root{
+    --font-famiry: "Cherry Bomb One", system-ui;
+}
 body{
+    font-family: var(--font-famiry);
+    font-style: normal;
     position: relative;
+    background-color: bisque;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+
+h3{
+    border: 1px;
 }
 
 /* 大元の設定終了 */
@@ -8,42 +21,90 @@ body{
 
 /* ヘッダー開始 */
 header{
-    height: 10vh;
+    height: 15vh;
     width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.magorun{
+    height: 5vh;
+    width: auto;
+    margin-top: 2vh;
+
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+    border-radius: 25px;
 }
-.icon{
-    height: 100%;
+
+.topMagorun{
+    margin:0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.icon-img{
-    height: 90%;
-    width: 90%;
+.base,.base .Accordionlist{
+    background-color: plum;
+}
+.active, .active .Accordionlist{
+    background-color: skyblue;
+}
+.point{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Accordionlist{
+    padding: 0.5rem;
+
+    border-radius: 15px;
+    z-index: 1000;
+}
+.Accordionlist button{
+    font-family: var(--font-famiry);
+    font-size: 2rem;
+    background-color: yellow;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.checkbox{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: left;
+
+    border: 1px solid #000;
+    border-radius: 25px;
+    background-color: skyblue;
+}
+.checkbox input{
+    zoom: 2;
+}
+.checkbox label{
+    font-size: 2rem;
+}
+#result{
+    font-size: 3rem;
 
 }
+
 /* ヘッダー終了 */
 /* メイン開始 */
-.base,.active{
-    display: flex;
-
-    margin:0;
-}
-.magorun{
-    height: 10vh;
-    width: auto;
-
-    position: absolute;
-}
 .room{
-    height: 70vh;
+    height: 65vh;
     width: auto;
 
     position: relative;
-    top: 10vh;
 
     background-size:auto 70vh;
     background-image: url("../img/childroom.jpg");
     background-repeat: no-repeat;
+
+    border: 4mm ridge rgb(0 0 0 / 74%);
+    border-radius: 20px;
 }
 .corasho{
     position: relative;
@@ -84,6 +145,14 @@ footer .icon{
     margin: 5px;
     border: 1px solid black;
     border-radius: 25px;
+
+}
+.icon{
+    height: 100%;
+}
+.icon-img{
+    height: 90%;
+    width: 90%;
 
 }
 
