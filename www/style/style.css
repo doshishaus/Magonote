@@ -16,6 +16,7 @@ h3{
     border: 1px;
 }
 
+
 /* 大元の設定終了 */
 
 
@@ -118,6 +119,7 @@ header{
 /* メイン開終了 */
 
 /* フッター開始 */
+
 footer{
     display: flex;
     justify-content: center;
@@ -147,12 +149,22 @@ footer .icon{
     border-radius: 25px;
 
 }
+.icon-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .icon{
     height: 100%;
 }
+.icon a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .icon-img{
-    height: 90%;
-    width: 90%;
+    height: 85%;
+    width: 85%;
 
 }
 
